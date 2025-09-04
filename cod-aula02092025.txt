@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <!---
+    links(externo,intero e anconra)
+    imagens
+    audio
+    video
+     -->
+
+<h1>aula: 01-09-2025</h1>
+<h2>links</h2>
+
+<h3>link ancora</h3>
+<a href="#sobre">ir pra secao sobre</a>
+
+
+<h3>link externo:</h3>
+<a href="https://www.google.com.br" title="google" target="_blank">site do google</a>
+
+
+
+<h3>link interno</h3>
+<a href="/contato/contato.html"> para a pagina contato</a>
+
+<h3>link para telefone</h3>
+<a href="https://wa.me/55119999999999" target="_blank">ligar agora</a>
+
+<h3>link para download</h3> 
+<p><a href="dondwload/manual_formato_documentos.pdf" download>baixar  pdf</a></p>
+
+
+<h2> imagem </h2> 
+<!--baixe imagens png ou jpg-->
+
+
+<a href="acessar pasta" target="_blank">
+
+
+<img src=""
+ alt="nome da imagem" 
+ width="150" 
+ height="70"
+ title="nome da imagem">
+
+</a>
+
+<h2>imagem com link externo</h2>
+<img src=" o link" 
+alt="nome da imagem?"
+width="100"
+height="100"
+title=" nome da imagem"
+>
+
+<h2>audio</h2> <!--audio -->
+<audio src="colocar a pasta e o arquivo de audio" controls autoplay></audio>
+
+<h2>video</h2> <!---video-->
+<video src="colocar a pasta e o arquivo e video"controls></video>
+
+<h2>video do youtube:</h2> <!---video local-->
+<iframe 
+    width="640 largura" 
+    height="360 tamanho " 
+    src="link" 
+    title="titulo" 
+    frameborder="colocar o link" 
+    allow="e so colocar o link q ja aparece" 
+    referrerpolicy="colocar o link" 
+    allowfullscreen>
+</iframe> 
+
+
+
+
+<h2 id="sobre">sobre nos</h2>
+<p>&copy; informaçoes sobre a empresa... </p>
+
+
+
+</body>
+</html>
+
+
+
+pagina de contatos:
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     
+    
+    <h1>pagina contato</h1>
+
+    
+</body>
+</html>
