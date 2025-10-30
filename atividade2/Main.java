@@ -46,11 +46,11 @@ public class Main {
                           } catch (EmailInvalidoException e) {
                         System.out.println("Nome invalido");
 
-                          }catch (Exception e){
-                            System.out.println("algo invalido");
+                          }catch(Exception e){
+                            System.out.println("Nome invalido");
                           }
                         
-                      
+                      }
 
                  
                     
