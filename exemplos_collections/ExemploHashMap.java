@@ -1,0 +1,23 @@
+import java.util.HashMap;
+
+public class ExemploHashMap {
+    public static void main(String[] args) {
+        HashMap<String, String> capitais = new HashMap<>();
+      
+       capitais.put("Brasil", "Brasilia");
+       capitais.put("França", "Paris");
+       capitais.put("Japao", "Toquio");
+    
+    System.out.println(capitais.get("Brasil"));
+  
+       if( capitais.containsKey("Argentina")){
+            System.out.println("Argentina está na lista de capitais");
+        }
+
+for(String chave : capitais.keySet()){
+    System.out.println(chave + " - " + capitais.get(chave));
+}
+
+
+    }
+}
